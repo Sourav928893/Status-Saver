@@ -129,18 +129,10 @@ Elevate your Android app to the next level with our state-of-the-art solutions! 
 </div>
 
   
-  <details>
-    <summary><b>Why Support?</b></summary>
-    <p>Every contribution helps me dedicate more time to creating high-quality open source Code. Your support directly translates to better software for everyone!</p>
-  </details>
-</div>
 
 
 
 
 
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
-</p>
 
