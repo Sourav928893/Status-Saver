@@ -121,25 +121,26 @@ Also, [follow me on GitHub](https://github.com/AndroidWithRossyn/) for my next c
   
 </p>
 
-
-## ☕ Fuel My Code
+## 💳 Support This Project
 
 <div align="center">
-  <a href="https://www.paypal.com/paypalme/banrossyn">
-    <img src="https://img.shields.io/badge/Support_My_Work-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"/>
+
+  <a href="https://rzp.io/l/YOUR_RAZORPAY_LINK">
+    <img src="https://img.shields.io/badge/Support_via_Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=white" alt="Razorpay"/>
   </a>
-   <a href="https://github.com/AndroidWithRossyn/AndroidWithRossyn/blob/main/donate/upi_scan.jpg?raw=true">
-    <img src="https://img.shields.io/badge/Support_via_UPI-4CAF50?style=for-the-badge&logo=google-pay&logoColor=white" alt="UPI"/>
-  </a>
-  <p><i>Your support transforms caffeine into code! ✨</i></p>
-  
+
+  <p><i>Your support helps improve this project with better features, updates and maintenance. 🚀</i></p>
+
   <table>
     <tr>
       <td>🚀 Faster Updates</td>
-      <td>🔍 Better Documentation</td>
-      <td>🛠️ More Features</td>
+      <td>🛠️ More Premium Features</td>
+      <td>📱 Better UI Improvements</td>
     </tr>
   </table>
+
+</div>
+
   
   <details>
     <summary><b>Why Support?</b></summary>
