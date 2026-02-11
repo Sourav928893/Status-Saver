@@ -40,11 +40,41 @@
             app:tint="@color/header_text_color" />
     </RelativeLayout>
 
+    <LinearLayout
+        android:id="@+id/premium_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:background="#FFEB3B"
+        android:orientation="horizontal"
+        android:padding="@dimen/_8sdp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_go_premium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Premium - Remove Ads ₹29"
+            android:textSize="@dimen/_10sdp"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="@dimen/_8sdp"/>
+
+        <Button
+            android:id="@+id/btn_enter_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Premium Code"
+            android:textSize="@dimen/_10sdp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tablayout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_60sdp"
-        android:layout_below="@+id/header"
+        android:layout_below="@+id/premium_layout"
         app:tabIndicatorHeight="0dp"
         app:tabMode="scrollable"
         app:tabPaddingStart="0dp"

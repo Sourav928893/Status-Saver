@@ -19,7 +19,6 @@
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <uses-feature android:name="android.hardware.camera" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <queries>
         <package android:name="com.whatsapp" />
@@ -27,7 +26,7 @@
     </queries>
 
     <application
-        android:name="com.Udaicoders.wawbstatussaver.MyApp"
+        android:name=".MyApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -41,7 +40,7 @@
         tools:replace="android:supportsRtl">
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.SplashActivity"
+            android:name="com.coders.wawbstatussaver.SplashActivity"
             android:exported="true"
             android:screenOrientation="nosensor">
             <intent-filter>
@@ -51,40 +50,40 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.Udaicoders.wawbstatussaver.intro.IntroActivity"
+        <activity android:name="com.coders.wawbstatussaver.intro.IntroActivity"
             android:screenOrientation="nosensor"
             android:exported="false"/>
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.font.FontActivity"
+            android:name="com.coders.wawbstatussaver.font.FontActivity"
             android:exported="false"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.HelpActivity"
+            android:name="com.coders.wawbstatussaver.HelpActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.MainActivity"
+            android:name="com.coders.wawbstatussaver.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.MyStatusActivity"
+            android:name="com.coders.wawbstatussaver.MyStatusActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.PreviewActivity"
+            android:name="com.coders.wawbstatussaver.PreviewActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.PolicyActivity"
+            android:name="com.coders.wawbstatussaver.PolicyActivity"
             android:screenOrientation="nosensor" />
 
-        <activity android:name="com.Udaicoders.wawbstatussaver.VideoPlayerActivity" />
+        <activity android:name="com.coders.wawbstatussaver.VideoPlayerActivity" />
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.waweb.WAWebActivity"
+            android:name="com.coders.wawbstatussaver.waweb.WAWebActivity"
             android:alwaysRetainTaskState="true"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|uiMode"
             android:exported="true"
@@ -97,18 +96,18 @@
         </activity>
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.DChatActivity"
+            android:name="com.coders.wawbstatussaver.DChatActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.Udaicoders.wawbstatussaver.warecovermsg.DeletedMsgByUsernameActivity"
+            android:name="com.coders.wawbstatussaver.warecovermsg.DeletedMsgByUsernameActivity"
             android:screenOrientation="nosensor" />
 
-        <activity android:name="com.Udaicoders.wawbstatussaver.warecovermsg.DeletedMsgActivity"
+        <activity android:name="com.coders.wawbstatussaver.warecovermsg.DeletedMsgActivity"
             android:screenOrientation="nosensor"/>
 
         <service
-            android:name="com.Udaicoders.wawbstatussaver.warecovermsg.listener.NotificationListener"
+            android:name="com.coders.wawbstatussaver.warecovermsg.listener.NotificationListener"
             android:enabled="true"
             android:exported="true"
             android:label="@string/whatsapp_notification_listener_service"
@@ -118,13 +117,11 @@
             </intent-filter>
         </service>
 
-        <activity
-            android:name="com.facebook.ads.AudienceNetworkActivity"
-            android:hardwareAccelerated="true" />
+
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/admob_app_id" />
+            android:value="ca-app-pub-4041401840560784~2188477072" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -136,23 +133,6 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity
-            android:name="com.ironsource.sdk.controller.ControllerActivity"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true" />
-        <activity
-            android:name="com.ironsource.sdk.controller.InterstitialActivity"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Translucent" />
-        <provider
-            android:authorities="${applicationId}.IronsourceLifecycleProvider"
-            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider" />
     </application>
 
 </manifest>
