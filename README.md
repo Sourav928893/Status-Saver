@@ -125,7 +125,7 @@ Also, [follow me on GitHub](https://github.com/AndroidWithRossyn/) for my next c
 
 <div align="center">
 
-  <a href="https://rzp.io/l/YOUR_RAZORPAY_LINK">
+  <a href="[https://rzp.io/l/YOUR_RAZORPAY_LINK](https://rzp.io/rzp/dEUA66dy)">
     <img src="https://img.shields.io/badge/Support_via_Razorpay-0C2451?style=for-the-badge&logo=razorpay&logoColor=white" alt="Razorpay"/>
   </a>
 
@@ -154,21 +154,10 @@ Also, [follow me on GitHub](https://github.com/AndroidWithRossyn/) for my next c
 
 ```
 Copyright: 
-~ Rossyn
-~ Rohitraj Khorwal
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Sourav
 
-   http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
