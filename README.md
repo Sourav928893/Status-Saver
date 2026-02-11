@@ -107,19 +107,6 @@ Elevate your Android app to the next level with our state-of-the-art solutions! 
 
 
 
----
-
-`Note:` Please review our [Code of Conduct](./CODE_OF_CONDUCT.md) before using this project.
-# Find this Repository useful? ❤️
-
-Support it by joining stargazers for this repository. ⭐
-
-Also, [follow me on GitHub](https://github.com/AndroidWithRossyn/) for my next creations! 🤩
-
-<p align="left">
-<a href="https://github.com/AndroidWithRossyn?tab=repositories&sort=stargazers"><img alt="All Repositories" title="All Repositories" src="https://custom-icon-badges.demolab.com/badge/-Click%20Here%20For%20All%20My%20Repos-1F222E?style=for-the-badge&logoColor=white&logo=repo"/></a>
-  
-</p>
 
 ## 💳 Support This Project
 
@@ -150,12 +137,6 @@ Also, [follow me on GitHub](https://github.com/AndroidWithRossyn/) for my next c
 
 
 
-## License
-
-```
-Copyright: 
-
-Sourav
 
 
 
